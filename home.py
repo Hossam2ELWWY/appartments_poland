@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import streamlit as st
-from PIL import Image
+#from PIL import Image
 #from ydata_profiling import ProfileReport
 #from streamlit_pandas_profiling import st_profile_report 
 df = pd.read_csv(r"C:\Users\Maydoum\Downloads\Compressed\apartments_pl_2024_01.csv")
