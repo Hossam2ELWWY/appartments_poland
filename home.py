@@ -5,7 +5,7 @@ import streamlit as st
 #from PIL import Image
 #from ydata_profiling import ProfileReport
 #from streamlit_pandas_profiling import st_profile_report 
-df = pd.read_csv(r"C:\Users\Maydoum\Downloads\Compressed\apartments_pl_2024_01.csv")
+df = pd.read_csv("apartments_pl_2024_01.csv")
 df.drop(columns=['condition' , 'id' , 'buildingMaterial' , 'collegeDistance' , 'restaurantDistance' , 'longitude', 'latitude'], inplace=True)
 df.dropna(subset=[ 'schoolDistance' , 'hasElevator','pharmacyDistance',
                   'kindergartenDistance', 'postOfficeDistance' , 'floorCount' , 'clinicDistance',  
