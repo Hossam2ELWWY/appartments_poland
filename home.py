@@ -49,7 +49,7 @@ st.write("The data comes from local websites with apartments for sale.")
 st.write("To fully capture the neighborhood of each apartment better, each offer was extended by data from the Open Street Map with distances to points of interest (POI).")
 st.write("The data is collected monthly and covers a timespan between August 2023 and March 2024.")
 
-if st.button('Press to show Report about Dataset'):
-    pr = ProfileReport(df, explorative=True)
-    st.header('**Pandas Profiling Report**')
-    st_profile_report(pr)
+# if st.button('Press to show Report about Dataset'):
+#     pr = ProfileReport(df, explorative=True)
+#     st.header('**Pandas Profiling Report**')
+#     st_profile_report(pr)
